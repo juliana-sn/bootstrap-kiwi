@@ -1,0 +1,49 @@
+* {
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+}
+
+:root {
+    --color-white: #ffffff;
+    --color-green: #03e278;
+    --color-black: #000000;
+}
+  
+body{
+    cursor: url(../images/hand-robot.gif), default;
+    background-color: var(--color-black);
+}
+
+.hero{
+    max-height: 90vh;
+}
+
+.bg-white{
+    background-color: var(--color-white);
+}
+
+.bg-dark{
+    background-color: var(--color-black);
+}
+
+.bg-green{
+    background-color: var(--color-green);
+}
+
+.color-green{
+    color: var(--color-green);   
+}
+  
+::selection{
+    background-color: var(--color-green);
+}
+
+.carousel{
+    max-height: 500px;
+    max-width: 700px;
+}
+
+.carousel img{
+    max-height: 500px;
+    max-width: 700px;
+}

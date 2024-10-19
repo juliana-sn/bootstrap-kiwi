@@ -13,9 +13,6 @@ body{
     background-color: var(--color-white);
 }
 
-/* background: rgb(5,110,60); */
-    /* background: radial-gradient(circle, rgba(5,110,60,1) 0%, rgba(2,34,20,1) 50%, rgba(0,0,0,1) 100%); */
-
 .hero{
     max-height: 90vh;
 }
